@@ -17,6 +17,12 @@ body{
 	display:block;
 }
 
+.container h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight:100;
+}
+
 .row{
 	padding: 20px 0;
 }

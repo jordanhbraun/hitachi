@@ -1,7 +1,6 @@
 body{
 	display: block;
-	font-family: 'Roboto', sans-serif;
-	font-size: 24px;
+	font-family: 'Roboto Slab', serif;
 	font-weight: 100;
 }
 
@@ -10,11 +9,11 @@ body{
 	padding-bottom:0;
 }
 .container{
-	text-align: center;
 }
 
 .jumbotron .container{
 	display:block;
+	text-align: center;
 }
 
 .container h2{
@@ -24,7 +23,7 @@ body{
 }
 
 .row{
-	padding: 20px 0;
+	padding: 15px 0;
 }
 
 .row .learn{
@@ -44,21 +43,41 @@ h3{
 	font-size: 30px;
 	font-weight:100;
 	text-transform: capitalize;
+	text-align: center
+}
+
+h4{
+	font-size: 24px;
+	text-align: center;
+}
+p{
+	font-size: 24px;
+	
+}
+
+ul{
+	font-size: 18px;
+	margin-bottom: 24px;
 }
 .col-md-6 .copy{
 	text-align: left;
 }
-
+.social{
+	text-align: center;
+}
 .social .fa{
 	color:#93BDED;
-	padding:0 10px;
+	padding: 0 10px;
 }
 
-footer{
+footer p{
 	background-color: #4a4a4a;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	margin: 0;
 	padding: 10px 0 5px;
 	text-align: center;
+}
+footer a{
+		color:#000;
 }

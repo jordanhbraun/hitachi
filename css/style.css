@@ -12,39 +12,61 @@ a {
 	font-weight:300;
 }
 
-.jumbotron{
-	background-color:#eee;
+img{
+	padding:7px;
+}
+.one{
 	padding-bottom:0;
+	background-color:rgba(255,255,255,0.8);
+	width:100%;
+	margin-bottom:0;
 }
 
-.jumbotron h1{
+.one h1{
 	font-family: 'Roboto', sans-serif;
 	font-weight:100;
 	padding: 15px;
 }
 
-.jumbotron h2{
+.one h2{
 	font-family: 'Roboto', sans-serif;
-	font-size: 40px;
+	font-size: 35px;
 	font-weight:100;
-	padding:15px;
+	margin:30px;
 }
 
-.row{
-	padding: 25px 30px;
+video {
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+background-size: cover;
 }
 
-.row .learn{
-	margin:15px 0 0 0;
+.learn .col-md-12{
+	margin-top: 50px;
+	z-index:20;
 }
 
+.learn .col-md-2{
+	margin-top:-48px;
+	z-index:5;
+}
 .appbadge{
 	width:250px;
 	text-align:center;
 }
 
 .two{
+	background-color:#fff;
+	padding-top:35px;
 	padding-bottom:15px;
+	margin: 0 auto;
+	width: 100%;
 }
 
 h3{
@@ -54,6 +76,7 @@ h3{
 	text-transform: capitalize;
 	text-align: center;
 	line-height: 34px;
+	padding-bottom: 45px;
 }
 
 ul{
@@ -61,14 +84,14 @@ ul{
 	margin-bottom: 24px;
 	text-align: left;
 	font-weight:300;
+	line-height: 27px;
 }
 
 .rightcol{
-	margin: 20% 0;
+	margin: 15% 0;
 }
-.copy{
-	text-align: left;
-	padding: 15% 0;
+.social{
+	padding: 15px 0;
 }
 
 .social .fa{
@@ -84,5 +107,5 @@ footer p{
 footer a{
 		color:#fff;
 		font-family: 'Open Sans', sans-serif;
-	    font-size: 14px;
+	    font-size: 16px;
 }

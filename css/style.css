@@ -5,6 +5,13 @@ body{
 	text-align:center;
 }
 
+a {
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight:300;
+}
+
 .jumbotron{
 	background-color:#eee;
 	padding-bottom:0;
@@ -13,31 +20,27 @@ body{
 .jumbotron h1{
 	font-family: 'Roboto', sans-serif;
 	font-weight:100;
+	padding: 15px;
 }
 
-.jumbotron .container{
-	display:block;
-	text-align: center;
-}
-
-.container h2{
+.jumbotron h2{
 	font-family: 'Roboto', sans-serif;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight:100;
+	padding:15px;
 }
 
 .row{
-	padding: 15px 30px;
+	padding: 25px 30px;
 }
 
 .row .learn{
 	margin:15px 0 0 0;
 }
-a {
-	font-family: 'Roboto Slab', serif;
-	font-size: 16px;
-	text-decoration: none;
-	font-weight:300;
+
+.appbadge{
+	width:250px;
+	text-align:center;
 }
 
 .two{
@@ -54,20 +57,22 @@ h3{
 }
 
 ul{
-	font-size: 18px;
+	font-size: 20px;
 	margin-bottom: 24px;
 	text-align: left;
 	font-weight:300;
 }
-.col-md-6 .copy{
+
+.rightcol{
+	margin: 20% 0;
+}
+.copy{
 	text-align: left;
+	padding: 15% 0;
 }
-.social{
-	text-align: center;
-}
+
 .social .fa{
 	color:#93BDED;
-	padding: 0 10px;
 }
 
 footer p{

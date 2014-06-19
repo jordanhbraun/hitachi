@@ -10,20 +10,11 @@ a {
 	font-weight:300;
 }
 
-img{
-	padding:7px;
-}
 .one{
-	padding:25px 0 0 0;
+	padding:100px 0 0 0;
 	background-color:rgba(255,255,255,0.8);
 	width:100%;
 	margin-bottom:0;
-}
-
-.one h1{
-	font-family: 'Roboto', sans-serif;
-	font-weight:100;
-	padding: 15px;
 }
 
 .one h2{
@@ -33,6 +24,9 @@ img{
 	margin:30px;
 }
 
+.logoname{
+	padding-bottom:30px;
+}
 video {
 position: fixed;
 right: 0;
@@ -43,6 +37,10 @@ width: auto;
 height: auto;
 z-index: -100;
 background-size: cover;
+}
+
+.learn{
+	margin-top:25px;
 }
 
 .learn .col-md-12{
@@ -88,7 +86,7 @@ ul{
 	margin-bottom: 24px;
 	text-align: left;
 	font-weight:300;
-	line-height: 27px;
+	line-height: 40px;
 }
 
 .rightcol{

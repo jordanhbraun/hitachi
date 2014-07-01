@@ -1,0 +1,133 @@
+/*                                                                                            
+ *                     ,----..                               ,----..          ,--.  ,----..    
+ *            .---.   /   /   \  ,-.----.       ,---,       /   /   \     ,--/  /| /   /   \   
+ *           /. ./|  /   .     : \    /  \    .'  .' `\    /   .     : ,---,': / '/   .     :  
+ *       .--'.  ' ; .   /   ;.  \;   :    \ ,---.'     \  .   /   ;.  \:   : '/ /.   /   ;.  \ 
+ *      /__./ \ : |.   ;   /  ` ;|   | .\ : |   |  .`\  |.   ;   /  ` ;|   '   ,.   ;   /  ` ; 
+ *  .--'.  '   \' .;   |  ; \ ; |.   : |: | :   : |  '  |;   |  ; \ ; |'   |  / ;   |  ; \ ; | 
+ * /___/ \ |    ' '|   :  | ; | '|   |  \ : |   ' '  ;  :|   :  | ; | '|   ;  ; |   :  | ; | ' 
+ * ;   \  \;      :.   |  ' ' ' :|   : .  / '   | ;  .  |.   |  ' ' ' ::   '   \.   |  ' ' ' : 
+ *  \   ;  `      |'   ;  \; /  |;   | |  \ |   | :  |  ''   ;  \; /  ||   |    '   ;  \; /  | 
+ *   .   \    .\  ; \   \  ',  / |   | ;\  \'   : | /  ;  \   \  ',  / '   : |.  \   \  ',  /  
+ *    \   \   ' \ |  ;   :    /  :   ' | \.'|   | '` ,/    ;   :    /  |   | '_\.';   :    /   
+ *     :   '  |--"    \   \ .'   :   : :-'  ;   :  .'       \   \ .'   '   : |     \   \ .'    
+ *      \   \ ;        `---`     |   |.'    |   ,.'          `---`     ;   |,'      `---`      
+ *       '---"                   `---'      '---'                      '---'                   
+ *  
+ * By Great Job
+ *                                                                                           
+ */
+
+/*
+ * Contents
+ *
+ * Body resets
+ * Custom type
+ * Container
+ * Social
+ */
+
+ /*
+ * Body resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+body{
+	background: linear-gradient(to bottom, #34659E 0%, #4A90E2 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+/*
+ * Custom type
+ *
+ */
+
+a{
+	text-decoration: none;
+	font-weight:300;
+}
+.one h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 35px;
+	font-weight:100;
+	margin:30px;
+}
+.logoname{
+	padding-bottom:30px;
+}
+h1{
+	font-family:'Roboto', sans-serif;
+	font-size: 64px;
+	font-weight:200;
+	text-transform: capitalize;
+	display: inline-block;
+	margin: 0;
+	vertical-align: middle;
+}
+h2{
+	font-family:'Roboto', sans-serif;
+	font-size: 32px;
+	font-weight:200;
+	text-transform: capitalize;
+	display: inline-block;
+	margin: 0;
+}
+
+/*
+ * Container
+ *
+ */
+
+.iphone{
+	/*filter: drop-shadow 0 0 30px rgba(0, 0, 0, 0.5);*/
+	-webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+}
+.main{
+	padding-top: 150px;
+}
+#logo{
+	float: left;
+	margin: 10px 0;
+	padding-top: 150px;
+}
+.contextual{
+	float: left;
+	margin: 10px 0;
+}
+.app-badge{
+	float: left;
+	margin: 10px 0;
+}
+.social{
+	float: left;
+	margin: 10px 0;
+}
+#app-icon {
+	margin: 0 15px 0 0;
+}
+/*
+ * Social
+ *
+ * Twitter and Facebook buttons for jumping to social media pages
+ */
+
+
+.fa{
+	color:#FFFFFF;
+}
+.fa-twitter{
+	margin-right: 10px
+}
+

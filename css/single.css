@@ -96,6 +96,7 @@ h2{
 .iphone{
 	/*filter: drop-shadow 0 0 30px rgba(0, 0, 0, 0.5);*/
 	-webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+	position: relative;
 }
 #logo{
 	float: left;
@@ -116,13 +117,14 @@ h2{
 }
 #app-icon {
 	margin: 0 15px 0 0;
+	vertical-align: bottom;
 }
+
 /*
  * Social
  *
  * Twitter and Facebook buttons for jumping to social media pages
  */
-
 
 .fa{
 	color:#FFFFFF;
@@ -130,4 +132,5 @@ h2{
 .fa-twitter{
 	margin-right: 10px
 }
+
 

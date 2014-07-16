@@ -125,7 +125,7 @@ footer a{
 .play-wordoko {
 	padding-top: 100px;
 }
-video#bgvid {
+#bgvid {
 	position: fixed;
 	right: 0;
 	bottom: 0;

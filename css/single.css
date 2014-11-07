@@ -1,18 +1,4 @@
-/*                                                                                            
- *                     ,----..                               ,----..          ,--.  ,----..    
- *            .---.   /   /   \  ,-.----.       ,---,       /   /   \     ,--/  /| /   /   \   
- *           /. ./|  /   .     : \    /  \    .'  .' `\    /   .     : ,---,': / '/   .     :  
- *       .--'.  ' ; .   /   ;.  \;   :    \ ,---.'     \  .   /   ;.  \:   : '/ /.   /   ;.  \ 
- *      /__./ \ : |.   ;   /  ` ;|   | .\ : |   |  .`\  |.   ;   /  ` ;|   '   ,.   ;   /  ` ; 
- *  .--'.  '   \' .;   |  ; \ ; |.   : |: | :   : |  '  |;   |  ; \ ; |'   |  / ;   |  ; \ ; | 
- * /___/ \ |    ' '|   :  | ; | '|   |  \ : |   ' '  ;  :|   :  | ; | '|   ;  ; |   :  | ; | ' 
- * ;   \  \;      :.   |  ' ' ' :|   : .  / '   | ;  .  |.   |  ' ' ' ::   '   \.   |  ' ' ' : 
- *  \   ;  `      |'   ;  \; /  |;   | |  \ |   | :  |  ''   ;  \; /  ||   |    '   ;  \; /  | 
- *   .   \    .\  ; \   \  ',  / |   | ;\  \'   : | /  ;  \   \  ',  / '   : |.  \   \  ',  /  
- *    \   \   ' \ |  ;   :    /  :   ' | \.'|   | '` ,/    ;   :    /  |   | '_\.';   :    /   
- *     :   '  |--"    \   \ .'   :   : :-'  ;   :  .'       \   \ .'   '   : |     \   \ .'    
- *      \   \ ;        `---`     |   |.'    |   ,.'          `---`     ;   |,'      `---`      
- *       '---"                   `---'      '---'                      '---'                   
+/*                                     
  *  
  * By Great Job
  *                                                                                           
@@ -34,8 +20,7 @@
  */
 
 body{
-	background: linear-gradient(to bottom, #34659E 0%, #4A90E2 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
-    color: #FFFFFF;
+    color: #1D90F4;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     line-height: 1.3em;
@@ -71,18 +56,24 @@ h1{
 	font-family:'Roboto', sans-serif;
 	font-size: 64px;
 	font-weight:200;
-	text-transform: capitalize;
 	display: inline-block;
 	margin: 0;
 	vertical-align: middle;
 }
+
+.button h1{
+	font-size: 48px;
+}
+
 h2{
 	font-family:'Roboto', sans-serif;
 	font-size: 32px;
 	font-weight:200;
-	text-transform: capitalize;
 	display: inline-block;
+	line-height: 2;
 	margin: 0;
+	vertical-align: middle;
+	color: #666;
 }
 
 /*
@@ -120,6 +111,8 @@ h2{
 	vertical-align: bottom;
 }
 
+
+  
 /*
  * Social
  *
@@ -127,10 +120,76 @@ h2{
  */
 
 .fa{
-	color:#FFFFFF;
+	color:#0F4DCB;
 }
 .fa-twitter{
 	margin-right: 10px
 }
 
+
+/*
+ * Button
+ *
+ * Custom buttoms
+ */
+
+.btn-default {
+  color: #1D90F4;
+  background-color: #ffffff;
+  border-color: #1D90F4
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: #1D90F4;
+  border-color: transparent;
+}
+
+.vibrate {
+    animation-duration: .1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+ 
+.vibrate:hover {
+    animation-name: jittery;
+}
+ 
+@keyframes jittery {
+    10% {
+        transform: translate(-1px, -1px) scale(1.01, 1.01);
+    }
+    20% {
+        transform: translate(1px, 1px) scale(1, 1);
+    }
+    30% {
+        transform: translate(-1px, -1px) scale(1.01, 1.01);
+    }
+    40% {
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+    50% {
+        transform: translate(-1px, -1px) scale(.99, .99);
+    }
+    60% {
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+    70% {
+        transform: translate(-1px, -1px) scale(1.01, 1.01);
+    }
+    80% {
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+    90% {
+        transform: translate(1px, 1px) scale(1.1, 1.1);
+    }
+    100% {
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+}
 
